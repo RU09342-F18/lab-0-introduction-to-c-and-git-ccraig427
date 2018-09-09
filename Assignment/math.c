@@ -11,13 +11,42 @@
  * ^ Bitwise XOR (num1 ^ num2)
  * ~ Bitwise Inverse (~num1) for this operation, num1 and num2 are still needed
 */
-int main(void) 
 
-#ifndef MATH_H_
-#define MATH_H_
+#include <stdio.h> 
+#include <math.h> 
 
-
-//Part of your documentation should be listing the valid inputs and outputs for the functions you create.
-int math(int num1, int num2, char Operator);
-
-#endif /* MATH_H_ */
+int main() 
+{ 
+  int math(int num1, int num2, char Operator) //declare inputs and case argument
+  { 
+    switch(Operator) //initiate case decision based on an operator symbol input
+    { 
+      case '+' : return(num1+num2); //addition
+        break; 
+      case '-' : return(num1-num2); //subtraction
+        break;
+      case '*' : return(num1*num2); //multiplication
+        break;
+      case '/' : return(num1/num2); //divide
+        break;
+      case '%' : return(num1%num2); //modulus
+        break;
+      case '<' : return(num1<<num2); //left shift
+        break;
+      case '>' : return(num1>>num2); //right shift
+        break;
+      case '&' : return(num1&num2); //bit by bit AND
+        break;
+      case '|' : return(num1|num2); //bit by bit OR
+        break;
+      case '^' : return(num1^num2); //bit by bit XOR
+        break;
+      case '~' : return(num1~num2); //bit by bit INVERSE
+        break;
+    }
+  }
+  return 0;
+}
+      
+      
+      
