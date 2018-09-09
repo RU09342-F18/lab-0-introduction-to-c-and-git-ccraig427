@@ -41,8 +41,9 @@ int main()
         break;
       case '^' : return(num1^num2); //bit by bit XOR
         break;
-      case '~' : return(num1~num2); //bit by bit INVERSE
+      case '~' : return(~num1); //bit by bit INVERSE
         break;
+      default: printf("Operator Input Invalid"); //gives error message if operator invalid
     }
   }
   return 0;
