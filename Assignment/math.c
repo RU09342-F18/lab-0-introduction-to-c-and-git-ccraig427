@@ -21,19 +21,19 @@ int main()
   { 
     switch(Operator) //initiate case decision based on an operator symbol input
     { 
-      case '+' : return(num1+num2); //addition
+      case '+' : return(num1+num2); //adds the integers and returns value
         break; 
-      case '-' : return(num1-num2); //subtraction
+      case '-' : return(num1-num2); //subtracts the integers and returns value
         break;
-      case '*' : return(num1*num2); //multiplication
+      case '*' : return(num1*num2); //multiplies the integers and returns value
         break;
-      case '/' : return(num1/num2); //divide
+      case '/' : return(num1/num2); //divides the integers and returns value
         break;
-      case '%' : return(num1%num2); //modulus
+      case '%' : return(num1%num2); //performs modulus and returns value
         break;
-      case '<' : return(num1<<num2); //left shift
+      case '<' : return(num1<<num2); //left shifts the bits of the first integer by the bits of the second integer
         break;
-      case '>' : return(num1>>num2); //right shift
+      case '>' : return(num1>>num2); //right shifts the bits of the first integer by the bits of the second integer
         break;
       case '&' : return(num1&num2); //bit by bit AND
         break;
@@ -41,7 +41,7 @@ int main()
         break;
       case '^' : return(num1^num2); //bit by bit XOR
         break;
-      case '~' : return(~num1); //bit by bit INVERSE
+      case '~' : return(~num1); //integer 1 negation 
         break;
       default: printf("Operator Input Invalid"); //gives error message if operator invalid
     }
