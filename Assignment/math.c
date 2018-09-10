@@ -1,17 +1,3 @@
-/* Your assignment is to take the math function and implement at least the following functions:
- * + Add (num1 + num2)
- * - Subtract (num1 - num2)
- * * Multiply (num1 * num2)
- * / Divide (num1 / num2)
- * % Modulus (num1 % num2)
- * < Left Shift (num1 << num2)
- * > Right Shift (num1 >> num2)
- * & Bitwise AND (num1 & num2)
- * | Bitwise OR (num1 | num2)
- * ^ Bitwise XOR (num1 ^ num2)
- * ~ Bitwise Inverse (~num1) for this operation, num1 and num2 are still needed
-*/
-
 #include <stdio.h> //defines variable types, macros, and functions for input/output 
 #include <math.h> //initiates the math library
 
