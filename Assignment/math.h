@@ -2,11 +2,11 @@
  * math.h
  *
  *  Created on: Aug 22, 2017
- * 	Last Edited: Sept 7, 2018
- *      Author: Russell Trafford
+ * 	Last Edited: Sept 10, 2018
+ *      Author: Colin Craig
  */
 
-/* Your assignment is to take the math function and implement at least the following functions:
+/* The domain of operators the math.c file can support are listed below: 
  * + Add (num1 + num2)
  * - Subtract (num1 - num2)
  * * Multiply (num1 * num2)
@@ -23,7 +23,11 @@
 #ifndef MATH_H_
 #define MATH_H_
 
-//Part of your documentation should be listing the valid inputs and outputs for the functions you create.
+/*Below is the function call and structure for the math.c file, 
+        (Integer 1, Integer 2, Operator) 
+  An example function call is listed below: 
+  int math (10, 5, +); */
+
 int math(int num1, int num2, char Operator);
 
 int num1; 
