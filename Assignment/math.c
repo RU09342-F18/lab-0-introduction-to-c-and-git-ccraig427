@@ -12,8 +12,8 @@
  * ~ Bitwise Inverse (~num1) for this operation, num1 and num2 are still needed
 */
 
-#include <stdio.h> 
-#include <math.h> 
+#include <stdio.h> //defines variable types, macros, and functions for input/output 
+#include <math.h> //initiates the math library
 
 int main() 
 { 
